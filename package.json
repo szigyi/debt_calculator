@@ -1,0 +1,17 @@
+{
+  "name": "TAP_downcounter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Szabolcs Szilagyi <szabolcs.szilagyi.hu@gmail.com> (http://szabolcsszilagyi.hu/)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "moment": "^2.12.0",
+    "numeral": "^1.5.3",
+    "swig": "^1.4.2"
+  }
+}
