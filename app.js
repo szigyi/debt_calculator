@@ -4,6 +4,7 @@ var moment = require('moment');
 var swig  = require('swig');
 var app = express();
 
+var port = process.env.PORT || 8080;
 
 // This is where all the magic happens!
 app.engine('html', swig.renderFile);
@@ -38,6 +39,6 @@ app.get('/', function (req, res) {
 	res.render('index', response);
 });
 
-app.listen(3000, function () {
-	console.log('http://localhost:3000');
+app.listen(port, function () {
+	console.log('http://localhost:' + port);
 });
