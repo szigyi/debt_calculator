@@ -35,6 +35,21 @@
 			<p>Debt - {{debtForADayFormatted}} HUF / day</p>
 		</div>
 	</div>
+	<div class="container">
+		<form action="/" method="post">
+			<fieldset>
+				<legend>End date</legend>
+				<input type="date" name="end_date" required>
+				<legend>Actual date</legend>
+				<input type="date" name="actual_date" required>
+				<legend>Amount of debt</legend>
+				<input type="number" name="initial_debt" required min="0">
+				<legend>Period of debt (in days)</legend>
+				<input type="number" name="initial_days" required min="0">
+				<input type="submit" value="Submit">
+			</fieldset>
+		</form>
+	</div>
 </body>
 </html>
 

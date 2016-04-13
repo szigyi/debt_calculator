@@ -9,6 +9,7 @@
   "author": "Szabolcs Szilagyi <szabolcs.szilagyi.hu@gmail.com> (http://szabolcsszilagyi.hu/)",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
     "moment": "^2.12.0",
     "numeral": "^1.5.3",
